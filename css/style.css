@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/object-sans');
+@font-face {
+  font-family: 'Object Sans';
+  font-style: normal;
+  font-weight: 802;
+  src: local('Object Sans'), url('https://fonts.cdnfonts.com/s/62296/ObjectSansHeavySlanted.woff') format('woff');
+}
+
+
+body {
+  font-family: 'Object Sans', sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #595b5a;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  background: #292c37;
+  padding: 80px 80px;
+  border-radius: 10px;
+}
+
+.timer {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 1px solid #0e671b;
+  border-radius: 10px;
+  background: #0e671b;
+  color: white;
+  font-family: 'Object Sans';
+  cursor: pointer;
+  transition: .5s;
+}
+button:hover {
+  background-color:#00550a;
+  color: #12fd09;
+  transition: .5s;
+}
+button:active {
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+button:disabled{
+  margin: 10px 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #cccccc;
+  color: rgb(95, 95, 95);
+  font-family: 'Object Sans';
+  cursor: default;
+}
+
+footer {
+  color: #12fd09;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a {
+  color: white;
+  margin-top: 10px;
+  transition: .5s;
+  padding: 5px;
+}
+
+footer a:hover {
+  background: #00550a;
+  border-radius: 10px;
+  padding: 5px;
+  transition: .5s;
+}
